@@ -1,0 +1,34 @@
+.overview{
+    // width: 100vh;
+    height:35vh;
+    // background-color: pink;
+    .main-overview{
+        display: flex;
+        justify-content: center;
+        .overview-dropdown{
+            margin-left: 20px;
+        }
+    }
+    .overview-list{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        column-gap: 30px;
+        .overview-info{
+            .overview-number{
+                margin-top: 20px;
+                margin-left: 10px;
+                color:rgb(131, 131, 194);
+                text-align: left;
+            }
+            
+        }
+        .overview-info:hover{
+            background-color: rgb(169, 169, 215);
+            color:white;
+            .overview-number:hover{
+                color:white;
+            }
+        }
+        
+    }
+}

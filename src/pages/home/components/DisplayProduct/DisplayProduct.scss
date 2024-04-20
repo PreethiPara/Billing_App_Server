@@ -1,0 +1,19 @@
+.product-paper{
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+}
+.name-price{
+    display: flex;
+    justify-content: space-around;
+}
+.paper{
+    padding: 20px;
+}
+.paper:hover{
+    background-color: rgb(249, 249, 249);
+    -webkit-box-shadow: 1px 1px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 22px 0px rgba(0,0,0,0.75);
+}

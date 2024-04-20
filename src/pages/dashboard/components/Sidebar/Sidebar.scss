@@ -1,0 +1,20 @@
+.sidebar{
+    -webkit-box-shadow: 3px 2px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 16px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 2px 16px -4px rgba(0,0,0,0.75);
+
+.side-bar-menu-item:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 6px; /* Adjust the width of the vertical line as needed */
+    background-color: rgb(169, 169, 215); /* Adjust the color of the vertical line as needed */
+}
+.side-bar-menu-item{
+    padding-left: 30px;
+}
+   
+
+}
