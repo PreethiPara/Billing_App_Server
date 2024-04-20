@@ -9,7 +9,8 @@ echo installing dependencies
 sudo yum update
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo yum install nodejs -y
-sudo yum -y install yarn
+sudo yum -y install npm
+sudo npm install --global yarn
 
 # check to make sure the symbolic link for nodejs node exists
 echo checking for nodejs symlink
