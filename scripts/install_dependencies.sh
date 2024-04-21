@@ -29,4 +29,4 @@ cd /var/www/
 sudo yarn install
 
 echo installing pm2
-sudo yarn add pm2 -g
+sudo npm install pm2 -g
