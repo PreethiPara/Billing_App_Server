@@ -7,7 +7,7 @@
 # here we update the server and install node and npm
 echo installing dependencies
 sudo yum update
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo yum install nodejs -y
 sudo yum -y install npm
 sudo npm install --global yarn
