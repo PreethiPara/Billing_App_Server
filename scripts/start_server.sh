@@ -8,4 +8,4 @@ sudo yarn run build
 
 # start the application with pm2
 echo starting application...
-sudo pm2 start yarn -- run production
+sudo pm2 start --name dashboard yarn -- start
